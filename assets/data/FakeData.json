@@ -1,0 +1,325 @@
+{
+  "getDataApplication": {
+    "data": [
+      {
+        "service": "Schneider Electric",
+        "protocole": "RDP",
+        "other": "o5"
+      },
+      { "service": "ISO Security", "protocole": "RDP", "other": "o3" },
+      { "service": "Schneider Electric", "protocole": "RDP", "other": "o5" },
+      { "service": "SAMOA", "protocole": "RDP", "other": "o5" },
+      { "service": "ACTIA", "protocole": "VDI", "other": "o4" },
+      { "service": "ISO Security", "protocole": "VDI", "other": "o5" },
+      { "service": "Chief", "protocole": "HTTP", "other": "o3" },
+      {
+        "service": "Schneider Electric",
+        "protocole": "RDP",
+        "other": "o2"
+      },
+      { "service": "SAMOA", "protocole": "RDP", "other": "o5" },
+      { "service": "RAV", "protocole": "RDP", "other": "o5" },
+      { "service": "Chief", "protocole": "RDP", "other": "o5" },
+      { "service": "ISO Security", "protocole": "HTTP", "other": "o4" },
+      { "service": "ISO Security", "protocole": "HTTP", "other": "o2" },
+      { "service": "ACTIA", "protocole": "RDP", "other": "o6" },
+      { "service": "SAMOA", "protocole": "HTTP", "other": "o3" },
+      {
+        "service": "Schneider Electric",
+        "protocole": "RDP",
+        "other": "o5"
+      },
+      { "service": "ISO Security", "protocole": "HTTP", "other": "o4" },
+      { "service": "Schneider Electric", "protocole": "RDP", "other": "o6" },
+      { "service": "Schneider Electric", "protocole": "RDP", "other": "o6" },
+      { "service": "ACTIA", "protocole": "VDI", "other": "o3" }
+    ]
+  },
+
+  "getDataLogs": {
+    "data": [
+      {
+        "data": "Data 3",
+        "destinataire": "Machine 3",
+        "action": "Log Out",
+        "email": "marieh@mail.fr",
+        "time": "8h00",
+        "period": "19min"
+      },
+      {
+        "data": "Data 1",
+        "destinataire": "Computer Hall",
+        "action": "Install C",
+        "email": "marieh@mail.fr",
+        "time": "11h55",
+        "period": "33min"
+      },
+      {
+        "data": "Data 6",
+        "destinataire": "Machine 3",
+        "action": "Install A",
+        "email": "alexandrad@mail.com",
+        "time": "8h36",
+        "period": "9min"
+      },
+      {
+        "data": "Data 3",
+        "destinataire": "Computer Hall",
+        "action": "Install A",
+        "email": "marieh@mail.fr",
+        "time": "17h47",
+        "period": "33min"
+      },
+      {
+        "data": "Data 6",
+        "destinataire": "Machine 1",
+        "action": "Install A",
+        "email": "marieh@mail.fr",
+        "time": "8h05",
+        "period": "41min"
+      },
+      {
+        "data": "Data 5",
+        "destinataire": "Computer Factory",
+        "action": "Install A",
+        "email": "jeanl@mail.com",
+        "time": "18h04",
+        "period": "17min"
+      },
+      {
+        "data": "Data 5",
+        "destinataire": "Printer",
+        "action": "Log Out",
+        "email": "frankg@mail.com",
+        "time": "8h48",
+        "period": "19min"
+      },
+      {
+        "data": "Data 3",
+        "destinataire": "Machine 3",
+        "action": "Install C",
+        "email": "jeanl@mail.com",
+        "time": "9h18",
+        "period": "9min"
+      },
+      {
+        "data": "Data 4",
+        "destinataire": "Computer Hall",
+        "action": "Install A",
+        "email": "frankg@mail.com",
+        "time": "8h00",
+        "period": "11min"
+      },
+      {
+        "data": "Data 6",
+        "destinataire": "Machine 3",
+        "action": "Log Out",
+        "email": "marieh@mail.fr",
+        "time": "16h26",
+        "period": "47min"
+      },
+      {
+        "data": "Data 2",
+        "destinataire": "Computer Factory",
+        "action": "Install B",
+        "email": "jeanl@mail.com",
+        "time": "11h32",
+        "period": "17min"
+      },
+      {
+        "data": "Data 4",
+        "destinataire": "Machine 3",
+        "action": "Log In",
+        "email": "alexandrad@mail.com",
+        "time": "8h36",
+        "period": "47min"
+      },
+      {
+        "data": "Data 3",
+        "destinataire": "Machine 3",
+        "action": "Log In",
+        "email": "frankg@mail.com",
+        "time": "17h47",
+        "period": "25min"
+      },
+      {
+        "data": "Data 4",
+        "destinataire": "Machine 2",
+        "action": "Install A",
+        "email": "jeanl@mail.com",
+        "time": "11h37",
+        "period": "13min"
+      },
+      {
+        "data": "Data 4",
+        "destinataire": "Computer Factory",
+        "action": "Install C",
+        "email": "marieh@mail.fr",
+        "time": "16h26",
+        "period": "25min"
+      },
+      {
+        "data": "Data 1",
+        "destinataire": "Computer Factory",
+        "action": "Install A",
+        "email": "marieh@mail.fr",
+        "time": "8h48",
+        "period": "45min"
+      },
+      {
+        "data": "Data 5",
+        "destinataire": "Machine 1",
+        "action": "Install B",
+        "email": "jeanl@mail.com",
+        "time": "17h47",
+        "period": "47min"
+      },
+      {
+        "data": "Data 6",
+        "destinataire": "Machine 1",
+        "action": "Log In",
+        "email": "frankg@mail.com",
+        "time": "8h27",
+        "period": "13min"
+      },
+      {
+        "data": "Data 5",
+        "destinataire": "Computer Factory",
+        "action": "Install B",
+        "email": "marieh@mail.fr",
+        "time": "8h48",
+        "period": "25min"
+      },
+      {
+        "data": "Data 2",
+        "destinataire": "Machine 3",
+        "action": "Log Out",
+        "email": "jeanl@mail.com",
+        "time": "11h55",
+        "period": "2min"
+      }
+    ]
+  },
+
+  "getDataOverviewActive": {
+    "data": [
+      { "person": "Frank G.", "destinataire": "Printer", "service": "ACTIA" },
+      {
+        "person": "Alexandra D.",
+        "destinataire": "Machine 3",
+        "service": "ISO Security"
+      },
+      {
+        "person": "Alexandra D.",
+        "destinataire": "Printer",
+        "service": "Chief"
+      },
+      {
+        "person": "Paul F.",
+        "destinataire": "Machine 3",
+        "service": "SAMOA"
+      },
+      {
+        "person": "Jean L.",
+        "destinataire": "Machine 3",
+        "service": "ACTIA"
+      },
+      { "person": "Frank G.", "destinataire": "Printer", "service": "Chief" },
+      {
+        "person": "Alexandra D.",
+        "destinataire": "Computer Hall",
+        "service": "Chief"
+      },
+      {
+        "person": "Alexandra D.",
+        "destinataire": "Machine 3",
+        "service": "SAMOA"
+      },
+      {
+        "person": "Alexandra D.",
+        "destinataire": "Machine 3",
+        "service": "Schneider Electric"
+      },
+      {
+        "person": "Marie H.",
+        "destinataire": "Machine 2",
+        "service": "SAMOA"
+      },
+      {
+        "person": "Alexandra D.",
+        "destinataire": "Machine 2",
+        "service": "Chief"
+      },
+      {
+        "person": "Jean L.",
+        "destinataire": "Computer Hall",
+        "service": "Chief"
+      },
+      {
+        "person": "Jean L.",
+        "destinataire": "Computer Factory",
+        "service": "Schneider Electric"
+      },
+      {
+        "person": "Paul F.",
+        "destinataire": "Machine 1",
+        "service": "Schneider Electric"
+      },
+      {
+        "person": "Alexandra D.",
+        "destinataire": "Machine 2",
+        "service": "Schneider Electric"
+      },
+      {
+        "person": "Paul F.",
+        "destinataire": "Computer Factory",
+        "service": "ACTIA"
+      },
+      {
+        "person": "Marie H.",
+        "destinataire": "Machine 3",
+        "service": "SAMOA"
+      },
+      {
+        "person": "Paul F.",
+        "destinataire": "Computer Factory",
+        "service": "Schneider Electric"
+      },
+      {
+        "person": "Frank G.",
+        "destinataire": "Computer Hall",
+        "service": "ISO Security"
+      },
+      {
+        "person": "Marie H.",
+        "destinataire": "Computer Hall",
+        "service": "Chief"
+      }
+    ]
+  },
+
+  "getDataOverviewInactive": {
+    "data": [
+      { "destinataire": "Computer Factory", "service": "RAV" },
+      { "destinataire": "Machine 3", "service": "SAMOA" },
+      { "destinataire": "Computer Hall", "service": "Chief" },
+      { "destinataire": "Computer Hall", "service": "ISO Security" },
+      { "destinataire": "Printer", "service": "Schneider Electric" },
+      { "destinataire": "Computer Hall", "service": "ISO Security" },
+      { "destinataire": "Machine 2", "service": "ACTIA" },
+      { "destinataire": "Computer Hall", "service": "Schneider Electric" },
+      { "destinataire": "Computer Hall", "service": "RAV" },
+      { "destinataire": "Machine 3", "service": "ISO Security" },
+      { "destinataire": "Machine 2", "service": "Schneider Electric" },
+      { "destinataire": "Machine 2", "service": "ISO Security" },
+      { "destinataire": "Machine 3", "service": "ISO Security" },
+      { "destinataire": "Computer Hall", "service": "SAMOA" },
+      { "destinataire": "Machine 3", "service": "Chief" },
+      { "destinataire": "Machine 2", "service": "Chief" },
+      { "destinataire": "Machine 1", "service": "ACTIA" },
+      { "destinataire": "Printer", "service": "Schneider Electric" },
+      { "destinataire": "Machine 2", "service": "Chief" },
+      { "destinataire": "Machine 2", "service": "Schneider Electric" }
+    ]
+  }
+}

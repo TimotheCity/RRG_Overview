@@ -1,0 +1,24 @@
+{
+  "data": [
+    { "destinataire": "Computer Factory", "service": "RAV" },
+    { "destinataire": "Machine 3", "service": "SAMOA" },
+    { "destinataire": "Computer Hall", "service": "Chief" },
+    { "destinataire": "Computer Hall", "service": "ISO Security" },
+    { "destinataire": "Printer", "service": "Schneider Electric" },
+    { "destinataire": "Computer Hall", "service": "ISO Security" },
+    { "destinataire": "Machine 2", "service": "ACTIA" },
+    { "destinataire": "Computer Hall", "service": "Schneider Electric" },
+    { "destinataire": "Computer Hall", "service": "RAV" },
+    { "destinataire": "Machine 3", "service": "ISO Security" },
+    { "destinataire": "Machine 2", "service": "Schneider Electric" },
+    { "destinataire": "Machine 2", "service": "ISO Security" },
+    { "destinataire": "Machine 3", "service": "ISO Security" },
+    { "destinataire": "Computer Hall", "service": "SAMOA" },
+    { "destinataire": "Machine 3", "service": "Chief" },
+    { "destinataire": "Machine 2", "service": "Chief" },
+    { "destinataire": "Machine 1", "service": "ACTIA" },
+    { "destinataire": "Printer", "service": "Schneider Electric" },
+    { "destinataire": "Machine 2", "service": "Chief" },
+    { "destinataire": "Machine 2", "service": "Schneider Electric" }
+  ]
+}
