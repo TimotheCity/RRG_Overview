@@ -32,7 +32,7 @@ export class ApplicationComponent implements OnInit {
           title: 'Icône',
           data: 'service',
           render: function(data, type, row) {
-            return '<img src="../../../assets/images/' +data+'-logo.jpg" width="auto" height="20"/>';
+            return '<img src="./assets/images/' +data+'-logo.jpg" width="auto" height="20"/>';
         }
       }, {
           title: 'Proto',
