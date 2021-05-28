@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "ngcc",
-    "build-and-deploy-gh-pages": "ng build --prod --base-href 'https://timothecity.github.io/RRG_Overview/' && npx ngh --dir dist/overviewRRG"
+    "build-and-deploy-gh-pages": "ng build --prod --base-href ./ && npx ngh --dir dist/overviewRRG"
   },
   "private": true,
   "dependencies": {
