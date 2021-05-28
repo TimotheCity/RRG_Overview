@@ -1,0 +1,57 @@
+<h3>
+  Actifs :
+</h3>
+<br/>
+<div  *ngIf="!github" style="margin-bottom: 50px;">
+  <table datatable [dtOptions]="dtOptionsActive" [dtTrigger]="dtTriggerActive" class="row-border hover stripe">
+    <thead>
+      <tr>
+        <th>Source</th>
+        <th>Dest</th>
+        <th>Service</th>
+      </tr>
+    </thead>
+    <tbody *ngIf="overviewActives?.length != 0">
+      
+      <tr *ngFor="let overAct of overviewActives">
+        <td>{{ overAct.person }}</td>
+        <td>{{ overAct.destinataire }}</td>
+        <td>{{ overAct.service }}</td>
+      </tr>
+    </tbody>
+    <tbody *ngIf="overviewActives?.length == 0">
+      <tr>
+        <td colspan="3" class="no-data-available">No data!</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<table *ngIf="github" datatable [dtOptions]="dtOptionsActiveAjax" class="row-border hover"></table>
+
+<h3 >
+  Inactifs :
+</h3>
+<br/>
+
+<table *ngIf="!github" datatable [dtOptions]="dtOptionsInactive" [dtTrigger]="dtTriggerInactive" class="row-border hover stripe">
+  <thead>
+    <tr>
+      <th>Dest</th>
+      <th>Service</th>
+    </tr>
+  </thead>
+  <tbody *ngIf="overviewInactives?.length != 0">
+    <tr *ngFor="let overInact of overviewInactives">
+      <td>{{ overInact.destinataire }}</td>
+      <td>{{ overInact.service }}</td>
+    </tr>
+  </tbody>
+  <tbody *ngIf="overviewInactives?.length == 0">
+    <tr>
+      <td colspan="3" class="no-data-available">No data!</td>
+    </tr>
+  </tbody>
+</table>
+
+<table *ngIf="github" datatable [dtOptions]="dtOptionsInactiveAjax" class="row-border hover"></table>

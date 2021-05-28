@@ -1,0 +1,49 @@
+
+mat-sidenav-container {
+  border-top: solid 1px white;
+  height: calc(100% - 64px);
+}
+
+mat-sidenav {
+  background-color: #39499C;
+  width: 80px;
+  overflow: hidden;
+}
+
+.active mat-icon{
+  text-decoration: underline;
+  color: white;
+}
+
+@keyframes slidein {
+  from { width: 80px; }
+  to   { width: 220px; }
+}
+
+mat-sidenav:hover {
+  width: 220px;
+  animation: slidein 0.3s ease-in-out;
+}
+mat-sidenav:hover #navigation span {
+  display: inline-block;
+}
+
+#navigation a {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+#navigation mat-icon {
+  color: white;
+  width: 48px;
+  height: 48px;
+  font-size: 48px;
+  margin-right: 20px;
+}
+
+#navigation span {
+  color: white;
+  font-size: 1.4rem;
+  display: none;
+}

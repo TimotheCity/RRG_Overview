@@ -1,0 +1,104 @@
+<!-- Vert: #a3c037 | Bleu: #39499c -->
+<div class="app-frame mat-app-background">
+
+  <head>
+  </head>
+
+  <body class="app-frame mat-app-background" [ngClass]='{"dark-theme-mode":is_dark_mode_enabled}'>
+    <header style='color:#fefefe'>
+      <!-- Toolbar -->
+      <mat-toolbar color='primary'>
+        <mat-toolbar-row>
+          <span style="display: flex; align-items: center;">
+            <b style="margin-right: 8px;">RRG connectivity manager </b>
+            <!-- <span style="font-size: 3rem;">👁</span> -->
+            <img src="../assets/images/Renault_2021_Logo.svg.png" width="auto" height="45px"/>
+          </span>
+          <span class='spacer'></span>
+
+          <button mat-icon-button [matMenuTriggerFor]="menu">
+            <mat-icon>menu</mat-icon>
+          </button>
+
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item>
+              <mat-icon *ngIf='is_dark_mode_enabled'>bedtime</mat-icon>
+              <mat-icon *ngIf='!is_dark_mode_enabled'>wb_sunny</mat-icon>
+              <span *ngIf='!is_dark_mode_enabled'>Switch off the lights</span>
+              <span *ngIf='is_dark_mode_enabled'>Switch on the lights</span>
+              <span style='align-self: normal;'>
+                <mat-slide-toggle color='warn' labelPosition='before' [(ngModel)]='is_dark_mode_enabled'>
+
+                </mat-slide-toggle>
+              </span>
+            </button>
+
+            <div>
+              <a href="/traffic/en/select">
+                <button mat-menu-item *ngIf='(site_locale == "fr")'>
+                  <mat-icon svgIcon='gb_flag'></mat-icon>
+                  <span>Basculez en anglais</span>
+                </button>
+              </a>
+              <a href="/traffic/fr/select">
+                <button mat-menu-item *ngIf='(site_locale == "en")'>
+                  <mat-icon svgIcon='fr_flag'></mat-icon>
+                  <span>Switch to French</span>
+                </button>
+              </a>
+            </div>
+
+            <button mat-menu-item
+              i18n-matTooltip='Logout matTooltip|text wich discribe the Logout button@@logout_tooltip'
+              *ngIf='is_logged;'>
+              <mat-icon>exit_to_app</mat-icon>
+              <span i18n='log out button|log out button stored in navbar menu@@log_out_button'>Log out</span>
+            </button>
+          </mat-menu>
+
+          {{currentApplicationVersion}}
+        </mat-toolbar-row>
+
+        <!-- <mat-toolbar-row style="display: flex; justify-content: space-between;">
+        <a routerLink="/application" routerLinkActive="active">Application</a>
+        <a routerLink="/logs" routerLinkActive="active">Logs</a>
+        <a routerLink="/overview" routerLinkActive="active">Overview</a>
+      </mat-toolbar-row> -->
+      </mat-toolbar>
+    </header>
+
+    <!-- component -->
+    <mat-sidenav-container>
+      <mat-sidenav opened mode="side" style="padding: 15px;">
+        <div id=navigation style="display: flex; flex-direction: column;">
+          <a routerLink="/application" routerLinkActive="active">
+            <mat-icon>folder</mat-icon><span>Application</span>
+          </a>
+          <a routerLink="/logs" routerLinkActive="active">
+            <mat-icon>article</mat-icon><span>Logs</span>
+          </a>
+          <a routerLink="/overview" routerLinkActive="active">
+            <mat-icon>visibility</mat-icon><span>Overview</span>
+          </a>
+        </div>
+      </mat-sidenav>
+      <mat-sidenav-content>
+        <div style="padding: 1%">
+          <h1 style="margin-top: 5px;">
+            Bienvenue sur votre outil de suppervision !
+          </h1>
+          <router-outlet>
+          </router-outlet>
+        </div>
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+
+    <!-- <div style="padding: 1%">
+    <router-outlet>
+    </router-outlet>
+   </div> -->
+  </body>
+
+  <footer>
+  </footer>
+</div>

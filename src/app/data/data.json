@@ -1,0 +1,180 @@
+{
+  "get-all": {
+    "data": [
+      {
+        "name": "Arnaud LEMAIRE",
+        "address": "50 Rue Barye",
+        "city": "Paris",
+        "age": 50
+      },
+      {
+        "name": "David BARBIER",
+        "address": "1 Rue Barye",
+        "city": "Poitiers",
+        "age": 15
+      },
+      {
+        "name": "Gillet ROYER",
+        "address": "5 Rue Barye",
+        "city": "Caen",
+        "age": 62
+      },
+      {
+        "name": "Christine KLEIN",
+        "address": "18 Rue Barye",
+        "city": "Nantes",
+        "age": 30
+      },
+      {
+        "name": "Anne BOUVIER",
+        "address": "5 Rue Barye",
+        "city": "Rouen",
+        "age": 46
+      },
+      {
+        "name": "Pierre COUSIN",
+        "address": "23 Rue Barye",
+        "city": "Bordeaux",
+        "age": 37
+      },
+      {
+        "name": "Louis LAPORTE",
+        "address": "77 Rue Barye",
+        "city": "Lille",
+        "age": 12
+      },
+      {
+        "name": "David ROUSSEL",
+        "address": "6 Rue Barye",
+        "city": "Marseille",
+        "age": 56
+      },
+      {
+        "name": "André GAUTIER",
+        "address": "15 Rue Barye",
+        "city": "Paris",
+        "age": 81
+      },
+      {
+        "name": "Antoine MASSON",
+        "address": "36 Rue Barye",
+        "city": "Belleville",
+        "age": 19
+      },
+      {
+        "name": "Pierre BOYER",
+        "address": "1 Rue Barye",
+        "city": "Lyon",
+        "age": 25
+      },
+      {
+        "name": "Daniel LAMY",
+        "address": "2 Rue Barye",
+        "city": "Paris",
+        "age": 49
+      }
+    ]
+  },
+  "getDataApplication": {
+    "data": [
+      {
+        "name": "Géométrie 3D",
+        "icone": "i1",
+        "proto": "p1",
+        "others": "o1"
+      },
+      { "name": "Alarme", "icone": "i2", "proto": "p2", "others": "o2" },
+      {
+        "name": "Marbre Laser",
+        "icone": "i3",
+        "proto": "p3",
+        "others": "o3"
+      },
+      {
+        "name": "Valise Multimarques",
+        "icone": "i4",
+        "proto": "p4",
+        "others": "o4"
+      },
+      {
+        "name": "Gestion d'huile",
+        "icone": "i5",
+        "proto": "p5",
+        "others": "o5"
+      },
+      { "name": "Bornes ZE", "icone": "i6", "proto": "p6", "others": "o6" }
+    ]
+  },
+  "getDataLogs": {
+    "data": [
+      {
+        "data": "da1",
+        "source": "alexandrad@mail.com",
+        "dest": "d1",
+        "action": "a1",
+        "time": "10:43",
+        "period": "21min"
+      },
+      {
+        "data": "da2",
+        "source": "jeanl@mail.com",
+        "dest": "d2",
+        "action": "a2",
+        "time": "11:23",
+        "period": "18min"
+      },
+      {
+        "data": "da3",
+        "source": "alexandrad@mail.com",
+        "dest": "d3",
+        "action": "a3",
+        "time": "12:04",
+        "period": "48min"
+      },
+      {
+        "data": "da4",
+        "source": "marieh@mail.fr",
+        "dest": "d4",
+        "action": "a4",
+        "time": "12:04",
+        "period": "34min"
+      },
+      {
+        "data": "da5",
+        "source": "jeanl@mail.com",
+        "dest": "d5",
+        "action": "a5",
+        "time": "11:23",
+        "period": "21min"
+      },
+      {
+        "data": "da6",
+        "source": "jeanl@mail.com",
+        "dest": "d6",
+        "action": "a6",
+        "time": "11:39",
+        "period": "48min"
+      }
+    ]
+  },
+  "getDataOverviewActive": {
+    "data": [
+      { "source": "s1", "dest": "d1", "service": "Géométrie 3D" },
+      { "source": "s2", "dest": "d2", "service": "Alarme" },
+      { "source": "s3", "dest": "d3", "service": "Marbre Laser" },
+      { "source": "s4", "dest": "d4", "service": "Valise Multimarques" },
+      { "source": "s5", "dest": "d5", "service": "Gestion d'huile" },
+      { "source": "s6", "dest": "d6", "service": "Bornes ZE" }
+    ]
+  },
+  "getDataOverviewInactive": {
+    "data": [
+      { "dest": "d1", "service": "Géométrie 3D" },
+      { "dest": "d2", "service": "Alarme" },
+      { "dest": "d3", "service": "Marbre Laser" },
+      { "dest": "d4", "service": "Valise Multimarques" },
+      { "dest": "d5", "service": "Gestion d'huile" },
+      { "dest": "d6", "service": "Bornes ZE" }
+    ]
+  }
+}

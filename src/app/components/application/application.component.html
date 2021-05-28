@@ -1,0 +1,29 @@
+<h3>
+  Applications disponibles :
+</h3>
+<br/>
+<table *ngIf="!github" datatable [dtOptions]="dtOptionsApplication" [dtTrigger]="dtTrigger" class="row-border hover stripe">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Icone</th>
+      <th>Proto</th>
+      <th>Other</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let application of applications">
+      <td>{{ application.service }}</td>
+      <td><img id="source" src="../../../assets/images/{{application.service}}-logo.jpg" width="auto" height="20"></td>
+      <td>{{ application.protocole }}</td>
+      <td>{{ application.other }}</td>
+    </tr>
+  </tbody>
+  <tbody *ngIf="applications?.length == 0">
+    <tr>
+      <td colspan="3" class="no-data-available">No data!</td>
+    </tr>
+  </tbody>
+</table>
+
+<table *ngIf="github" datatable [dtOptions]="dtOptionsApplicationAjax" class="row-border hover"></table>

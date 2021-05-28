@@ -1,0 +1,96 @@
+{
+  "data": [
+    { "person": "Frank G.", "destinataire": "Printer", "service": "ACTIA" },
+    {
+      "person": "Alexandra D.",
+      "destinataire": "Machine 3",
+      "service": "ISO Security"
+    },
+    {
+      "person": "Alexandra D.",
+      "destinataire": "Printer",
+      "service": "Chief"
+    },
+    {
+      "person": "Paul F.",
+      "destinataire": "Machine 3",
+      "service": "SAMOA"
+    },
+    {
+      "person": "Jean L.",
+      "destinataire": "Machine 3",
+      "service": "ACTIA"
+    },
+    { "person": "Frank G.", "destinataire": "Printer", "service": "Chief" },
+    {
+      "person": "Alexandra D.",
+      "destinataire": "Computer Hall",
+      "service": "Chief"
+    },
+    {
+      "person": "Alexandra D.",
+      "destinataire": "Machine 3",
+      "service": "SAMOA"
+    },
+    {
+      "person": "Alexandra D.",
+      "destinataire": "Machine 3",
+      "service": "Schneider Electric"
+    },
+    {
+      "person": "Marie H.",
+      "destinataire": "Machine 2",
+      "service": "SAMOA"
+    },
+    {
+      "person": "Alexandra D.",
+      "destinataire": "Machine 2",
+      "service": "Chief"
+    },
+    {
+      "person": "Jean L.",
+      "destinataire": "Computer Hall",
+      "service": "Chief"
+    },
+    {
+      "person": "Jean L.",
+      "destinataire": "Computer Factory",
+      "service": "Schneider Electric"
+    },
+    {
+      "person": "Paul F.",
+      "destinataire": "Machine 1",
+      "service": "Schneider Electric"
+    },
+    {
+      "person": "Alexandra D.",
+      "destinataire": "Machine 2",
+      "service": "Schneider Electric"
+    },
+    {
+      "person": "Paul F.",
+      "destinataire": "Computer Factory",
+      "service": "ACTIA"
+    },
+    {
+      "person": "Marie H.",
+      "destinataire": "Machine 3",
+      "service": "SAMOA"
+    },
+    {
+      "person": "Paul F.",
+      "destinataire": "Computer Factory",
+      "service": "Schneider Electric"
+    },
+    {
+      "person": "Frank G.",
+      "destinataire": "Computer Hall",
+      "service": "ISO Security"
+    },
+    {
+      "person": "Marie H.",
+      "destinataire": "Computer Hall",
+      "service": "Chief"
+    }
+  ]
+}
