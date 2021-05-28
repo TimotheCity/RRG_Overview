@@ -1,5 +1,6 @@
+@import url("https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap5.min.css");
+
 table {
   margin-bottom: 2rem;
 }
 
-@import url("https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap5.min.css");

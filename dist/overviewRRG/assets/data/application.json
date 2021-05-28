@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "service": "Schneider Electric",
+      "protocole": "RDP",
+      "other": "o5"
+    },
+    { "service": "ISO Security", "protocole": "RDP", "other": "o3" },
+    { "service": "Schneider Electric", "protocole": "RDP", "other": "o5" },
+    { "service": "SAMOA", "protocole": "RDP", "other": "o5" },
+    { "service": "ACTIA", "protocole": "VDI", "other": "o4" },
+    { "service": "ISO Security", "protocole": "VDI", "other": "o5" },
+    { "service": "Chief", "protocole": "HTTP", "other": "o3" },
+    {
+      "service": "Schneider Electric",
+      "protocole": "RDP",
+      "other": "o2"
+    },
+    { "service": "SAMOA", "protocole": "RDP", "other": "o5" },
+    { "service": "RAV", "protocole": "RDP", "other": "o5" },
+    { "service": "Chief", "protocole": "RDP", "other": "o5" },
+    { "service": "ISO Security", "protocole": "HTTP", "other": "o4" },
+    { "service": "ISO Security", "protocole": "HTTP", "other": "o2" },
+    { "service": "ACTIA", "protocole": "RDP", "other": "o6" },
+    { "service": "SAMOA", "protocole": "HTTP", "other": "o3" },
+    {
+      "service": "Schneider Electric",
+      "protocole": "RDP",
+      "other": "o5"
+    },
+    { "service": "ISO Security", "protocole": "HTTP", "other": "o4" },
+    { "service": "Schneider Electric", "protocole": "RDP", "other": "o6" },
+    { "service": "Schneider Electric", "protocole": "RDP", "other": "o6" },
+    { "service": "ACTIA", "protocole": "VDI", "other": "o3" }
+  ]
+}
